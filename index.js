@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 
 const AnimatedTextInput = Animated.createAnimatedComponent(TextInput);
-const containerHeight = 40;
+const containerHeight = 26;
 
 class Search extends PureComponent {
   constructor(props) {
@@ -411,7 +411,7 @@ const getStyles = (inputHeight) => {
     iconSearch: {
       flex: 1,
       position: 'absolute',
-      top: middleHeight - 7,
+      top: middleHeight - 12,
       height: 14,
       width: 14
     },
