@@ -421,7 +421,7 @@ const getStyles = (inputHeight) => {
     iconDelete: {
       position: 'absolute',
       right: 70,
-      top: middleHeight - 7,
+      top: middleHeight - 12,
       height: 14,
       width: 14
     },
